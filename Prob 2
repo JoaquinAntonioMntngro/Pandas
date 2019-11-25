@@ -1,0 +1,11 @@
+import pandas as pd
+
+p2a = data.iloc[[0,1,2,3,4],[0,2,4,6,8,10]]
+p2b = data.ix[0]
+p2c = data.iloc[[23], [0, 2, 10]]
+p2d = data.iloc[[1, 28, 18], [0, 2, 10]]
+
+print('a:\n', p2a)
+print('\n \n b: \n', p2b)
+print('\n \n c: \n', p2c)
+print('\n \n d: \n',p2d)
